@@ -50,13 +50,13 @@ namespace Warehouse
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            // app.UseTwitterAuthentication(
+            //  consumerKey: "2147987131911555",
+            //consumerSecret: "8b05b588f030e06165ae2a1123dae2d9");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "2147987131911555",
+               appSecret: "8b05b588f030e06165ae2a1123dae2d9");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
